@@ -11,7 +11,6 @@
 		0E2AFF8614DE3F3600456523 /* Mug.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2AFF8514DE3F3600456523 /* Mug.m */; };
 		0E6F215614F9FE0F004F682D /* Star_OFF.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6F215414F9FE0F004F682D /* Star_OFF.png */; };
 		0E6F215714F9FE0F004F682D /* Star_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6F215514F9FE0F004F682D /* Star_ON.png */; };
-		0E6F215A14F9FF59004F682D /* Review.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F215914F9FF59004F682D /* Review.m */; };
 		0EE5A6D414BEB490006BB5E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE5A6D314BEB490006BB5E1 /* UIKit.framework */; };
 		0EE5A6D614BEB490006BB5E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE5A6D514BEB490006BB5E1 /* Foundation.framework */; };
 		0EE5A6D814BEB490006BB5E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE5A6D714BEB490006BB5E1 /* CoreGraphics.framework */; };
@@ -30,8 +29,6 @@
 		0E2AFF8514DE3F3600456523 /* Mug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mug.m; sourceTree = "<group>"; };
 		0E6F215414F9FE0F004F682D /* Star_OFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star_OFF.png; sourceTree = "<group>"; };
 		0E6F215514F9FE0F004F682D /* Star_ON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star_ON.png; sourceTree = "<group>"; };
-		0E6F215814F9FF59004F682D /* Review.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Review.h; sourceTree = "<group>"; };
-		0E6F215914F9FF59004F682D /* Review.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Review.m; sourceTree = "<group>"; };
 		0EE5A6CF14BEB490006BB5E1 /* Restaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE5A6D314BEB490006BB5E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0EE5A6D514BEB490006BB5E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -115,8 +112,6 @@
 				0E2AFF8414DE3F3600456523 /* Mug.h */,
 				0E2AFF8514DE3F3600456523 /* Mug.m */,
 				0EE5A6DA14BEB490006BB5E1 /* Supporting Files */,
-				0E6F215814F9FF59004F682D /* Review.h */,
-				0E6F215914F9FF59004F682D /* Review.m */,
 			);
 			path = Restaurants;
 			sourceTree = "<group>";
@@ -202,7 +197,6 @@
 				0EE5A6ED14BEB491006BB5E1 /* DetailViewController.m in Sources */,
 				0E02F6BD14CD10E300C3EAE8 /* Restaurant.m in Sources */,
 				0E2AFF8614DE3F3600456523 /* Mug.m in Sources */,
-				0E6F215A14F9FF59004F682D /* Review.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
